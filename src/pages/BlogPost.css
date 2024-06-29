@@ -1,0 +1,17 @@
+.blog-post-detail {
+  padding: 2rem;
+  text-align: left;
+}
+
+.blog-post-detail h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.blog-post-detail p {
+  color: #666;
+}
+
+.blog-detail-title{
+  color: white;
+}

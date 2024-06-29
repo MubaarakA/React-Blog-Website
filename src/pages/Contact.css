@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  background-color: #080707;
+  padding: 20px;
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 50px auto; /* Center the form on the page */
+}
+
+.contact-container h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #cccccc;
+}
+
+.contact-container p {
+  margin-bottom: 20px;
+  color: #aaaaaa;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  background-color: #404040;
+  border: 1px solid #555;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  width: 48%;
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #bbbbbb;
+}
+
+.input-group input:focus{
+  border: 1px solid rgb(3, 255, 3);
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"] {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  background-color: #1eff00;
+
+  border: 1px solid #137400;
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 20%;
+  margin-left: 40%;
+  transition: box-shadow 0.3s ease-in-out; 
+
+}
+
+.contact-form button:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 255, 34, 0.6);
+
+}
+
+.call-us {
+  margin-top: 20px;
+  color: #3cff00;
+  font-size: 14px;
+}
