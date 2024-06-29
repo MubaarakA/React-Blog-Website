@@ -1,0 +1,56 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white; /* Main text color */
+  background-color: black; /* Main background color */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Links */
+a {
+  color: cyan;
+  text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+  color: white; /* Hover color for links */
+  text-decoration: underline;
+}
+
+/* Inputs and Buttons */
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+main {
+  flex: 1;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: relative; 
+  width: 100%;
+}

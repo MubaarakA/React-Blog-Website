@@ -1,0 +1,47 @@
+.create-blog form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.create-blog input, .create-blog textarea, .create-blog button {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 40%;
+}
+
+
+.create-blog h1{
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.asc{
+  border: 1px solid rgb(0, 255, 34);
+}
+
+.asc:focus{
+  border: 1px solid rgb(0, 255, 34);
+  
+}
+
+.create-blog button{
+  background-color: rgb(0, 255, 34);
+  color: white;
+  width: 10%;
+  height: 50px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out; 
+  margin-bottom: 30px;
+}
+
+.create-blog button:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 255, 34, 0.6);
+}

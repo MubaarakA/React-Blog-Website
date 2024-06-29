@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: rgb(14, 11, 11);
+  color: white;
+}
+
+.logo a {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo a:hover {
+  color: rgb(1, 255, 1);
+  text-decoration: none;
+}
+
+.logo a:active {
+  color: rgb(1, 255, 1);
+}
+
+.logo img {
+  height: 50px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between the image and text */
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(0, 255, 0);
+  text-decoration: none;
+}
+
+.navbar-logo{
+  height: 200px;
+}
