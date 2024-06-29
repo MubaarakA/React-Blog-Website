@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-Blog-Website/static/css/main.b0d5d02f.css",
+    "main.js": "/React-Blog-Website/static/js/main.c0e30acc.js",
+    "static/js/453.7ab4befc.chunk.js": "/React-Blog-Website/static/js/453.7ab4befc.chunk.js",
+    "static/media/pexels-adrien-olichon-1257089-2387793.jpg": "/React-Blog-Website/static/media/pexels-adrien-olichon-1257089-2387793.85fbc2d81eb844fe630e.jpg",
+    "static/media/aboutimage.jpg": "/React-Blog-Website/static/media/aboutimage.4cf8f3808d0172076162.jpg",
+    "static/media/wcs.png": "/React-Blog-Website/static/media/wcs.95fe5df309eb1dbedefd.png",
+    "index.html": "/React-Blog-Website/index.html",
+    "main.b0d5d02f.css.map": "/React-Blog-Website/static/css/main.b0d5d02f.css.map",
+    "main.c0e30acc.js.map": "/React-Blog-Website/static/js/main.c0e30acc.js.map",
+    "453.7ab4befc.chunk.js.map": "/React-Blog-Website/static/js/453.7ab4befc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0d5d02f.css",
+    "static/js/main.c0e30acc.js"
+  ]
+}
